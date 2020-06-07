@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pasar.in</title>
+  </head>
+  <body>
+      <!-- bg warna navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <!-- merapikan navbar  -->
+      <div class="container">  
+        <!-- logo keranjang  -->
+        <!-- <h3><i class="fas fa-cart-plus text-success mr-2"></i></h3> -->
+        <h2><img src="img/logo/logo.png" ></h2>
+        <a class="navbar-brand font-weight-bold" href="#">Pasar.in</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Reseller <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Hubungi Kami <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Bantuan <span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <!-- icon font awesome -->
+          <div class="icon mt-2">
+            <h5>
+              <i class="fas fa-cart-plus ml-4 mr-3" data-toggle="tooltip" title="Keranjang Belanja"></i>
+              <i class="fas fa-envelope-square ml-2 mr-3" data-toggle="tooltip" title="Pesan"></i>
+              <i class="fas fa-bell ml-2 mr-3" data-toggle="tooltip" title="Notifikasi"></i>
+              <i class="fas fa-sign-in-alt ml-2 mr-3" data-toggle="tooltip" title="LOGIN"></i>
+              
+            </h5>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+<!-- list kategori jenis barang -->
+    <div class="row mt-5 no-gutters">
+      <div class="col-md-2 bg-light">
+        <ul class="list-group list-group-flush p-2 pt-4">
+          <li class="list-group-item bg-primary"> <i class="fas fa-list"></i> JENIS BARANG</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Sayur</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Daging</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Ikan</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Buah</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Bahan Pokok</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Bumbu</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Jajanan Basah</li>
+          <li class="list-group-item"> <i class="fas fa-angle-right"></i> Jajanan Kering</li>
+
+        </ul>
+      </div>
+      <!-- slide -->
+      <div class="col-md-10">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/slide/slide 4.png " class="d-block w-100  "  alt="..." style="width:700px; height:500px;" >
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide/slide 3.png" class="d-block w-100  " alt="..." style="width:700px; height:500px;">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide/slide 2.png" class="d-block w-100 " alt="..." style="width:700px; height:500px;">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <h4 class="text-center font-weight-bold m-4">PRODUK PASAR</h4>
+        <!-- daftar barang -->
+        <div class="row mx-auto">
+                <div class="card mr-2 ml-2" style="width: 16rem;">
+                  <img src="img/produk/terong.jpg" class="card-img-top " alt="..." style="width:255px; height:300px;">
+                    <div class="card-body bg-light">
+                      <!-- nama produk -->
+                      <h5 class="card-title">Terong Ambon</h5>
+                      <!-- keterangan produk -->
+                      <p class="card-text">Enak,Gurih,nyoy</p>
+                      <!-- bintang -->
+                      <i class="fas fa-star text-success"></i>
+                      <i class="fas fa-star text-success"></i>
+                      <i class="fas fa-star text-success"></i>
+                      <i class="fas fa-star-half-alt text-success"></i>
+                      <i class="far fa-star text-success"></i> <br>
+                      <a href="#" class="btn btn-primary" data-target="#produk1" data-toggle="modal" >Detail</a>
+                      <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+                    </div>
+                </div>  
+              <div class="card mr-2 ml-2" style="width: 16rem;">
+                <img src="img/produk/kacang panjang.jpg" class="card-img-top" alt="..." style="width:255px; height:300px;">
+                  <div class="card-body bg-light">
+                    <!-- nama produk -->
+                    <h5 class="card-title">Kacang Panjang</h5>
+          <!-- keterangan produk -->
+                    <p class="card-text">Kacang Panjang Segar</p>
+                    <!-- bintang -->
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star-half-alt text-success"></i>
+                    <i class="far fa-star text-success"></i> <br>
+                    <a href="#" class="btn btn-primary">Detail</a>
+                    <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+                  </div>
+              </div>  
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/produk/kangkung.jpg" class="card-img-top" alt="..." style="width:255px; height:300px; ">
+                <div class="card-body bg-light">
+                  <!-- nama produk -->
+                  <h5 class="card-title">Kangkung</h5>
+        <!-- keterangan produk -->
+                  <p class="card-text">Kangkung segar</p>
+                  <!-- bintang -->
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star-half-alt text-success"></i>
+                  <i class="far fa-star text-success"></i> <br>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                  <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+                </div>
+            </div>  
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="img/produk/bayam.jpg" class="card-img-top" alt="..." style="width:255px; height:300px;">
+              <div class="card-body bg-light">
+                <!-- nama produk -->
+                <h5 class="card-title">Bayam</h5>
+      <!-- keterangan produk -->
+                <p class="card-text">Makanan popaye</p>
+                <!-- bintang -->
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star-half-alt text-success"></i>
+                <i class="far fa-star text-success"></i> <br>
+                <a href="#" class="btn btn-primary">Detail</a>
+                <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+              </div>
+          </div>  
+        </div>
+        <!-- baris 2 barang -->
+        <div class="row mx-auto mt-5">
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="img/produk/daging ayam.png" class="card-img-top" alt="..." style="width:255px; height:300px;">
+              <div class="card-body bg-light">
+                <!-- nama produk -->
+                <h5 class="card-title">Daging ayam</h5>
+                <!-- keterangan produk -->
+                <p class="card-text">Bisa request dagingnya</p>
+                <!-- bintang -->
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star-half-alt text-success"></i>
+                <i class="far fa-star text-success"></i> <br>
+                <a href="#" class="btn btn-primary">Detail</a>
+                <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+              </div>
+          </div>  
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="img/produk/daging sapi.jpg" class="card-img-top" alt="..." style="width:255px; height:300px;">
+              <div class="card-body bg-light">
+                <!-- nama produk -->
+                <h5 class="card-title">Daging sapi</h5>
+      <!-- keterangan produk -->
+                <p class="card-text">Sapiderman </p>
+                <!-- bintang -->
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star-half-alt text-success"></i>
+                <i class="far fa-star text-success"></i> <br>
+                <a href="#" class="btn btn-primary">Detail</a>
+                <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+              </div>
+          </div>  
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/produk/ikan tengiri.jpg" class="card-img-top" alt="..." style="width:255px; height:300px;">
+                <div class="card-body bg-light">
+                  <!-- nama produk -->
+                  <h5 class="card-title">Ikan Tengiri</h5>
+        <!-- keterangan produk -->
+                  <p class="card-text">Jaminan segar</p>
+                  <!-- bintang -->
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star text-success"></i>
+                  <i class="fas fa-star-half-alt text-success"></i>
+                  <i class="far fa-star text-success"></i> <br>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                  <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+                </div>
+          </div>  
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="img/produk/cabai merah.jpg" class="card-img-top" alt="..." style="width:255px; height:300px;">
+              <div class="card-body bg-light">
+                <!-- nama produk -->
+                <h5 class="card-title">Cabai Merah</h5>
+      <!-- keterangan produk -->
+                <p class="card-text">Cabai merah keriting</p>
+                <!-- bintang -->
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star text-success"></i>
+                <i class="fas fa-star-half-alt text-success"></i>
+                <i class="far fa-star text-success"></i> <br>
+                <a href="#" class="btn btn-primary">Detail</a>
+                <a href="#" class="btn btn-danger">Rp.20.000/kg</a>
+              </div>
+          </div>  
+        </div>
+        <!-- modal  detail produk -->
+        <div class="modal fade" id="produk1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Detail Barang</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/produk/terong.jpg" alt="" style="width:255px; height:300px;">
+                  </div>
+                  <div class="col-md-6">
+                    <table class="table table-borderless">
+                      <tr>
+                        <th>Nama Barang</th>
+                        <td>Terong</td>
+                      </tr>
+                      <tr>
+                        <th>Jenis</th>
+                        <td>Terong ambon</td>
+                      </tr>
+                      <tr>
+                        <th>Biaya Ongkir</th>
+                        <td>Standar</td>
+                      </tr>
+                      <tr>
+                        <th>Rating Barang</th>
+                        <td>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star text-success"></i>
+                          <i class="fas fa-star-half-alt text-success"></i>
+                          <i class="far fa-star text-success"></i> <br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Stock Barang</th>
+                        <td>50 Kg</td>
+                      </tr>
+                      <tr>
+                        <th>Harga</th>
+                        <td>Rp.20.000</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">KEMBALI</button>
+                <button type="button" class="btn btn-primary">BELI</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light p-5">
+        <div class="row">
+          <div class="col-md-3">
+              <h5>LAYANAN PELANGGAN</h5>
+              <ul>
+                <li>Pusat Bantuan</li>
+                <li>Cara Pembelian</li>
+                <li>Pengiriman</li>
+                <li>Cara Pengembalian</li>
+              </ul>
+            </div>
+          <div class="col-md-3">
+            <h5>TENTANG KAMI</h5>
+            <p>
+              Pasar.in membantu kamu untuk tetap bisa belanja tanpa keluar rumah. Tersedia ratusan lebih barang yang bisa kamu pilih dengan jaminan harga dan kualitas yang selalu segar dan sehat. Pembayaran ditempat dan ketika barang sampai tujuan sehinga kamu tidak perlu repot untuk berbelanja di Pasar.in 
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5>MITRA KERJASAMA</h5>
+            <ul>
+              <li>PLUGIN</li>
+              <li>GOJEK</li>
+              <li>GRAB</li>
+              
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>HUBUNGI KAMI</h5>
+            <ul>
+              <li>0283-345677</li>
+              <li>info@pasar.in.com</li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <div class="copyright text-center text-white font-bold bg-primary p-2">
+      <p>Copyright <i class="fa fa-copyright" ></i> 2020</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- script tooltip -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
